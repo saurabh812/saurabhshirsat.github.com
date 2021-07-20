@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" stylesheet" href="C:\Users\Dell\Desktop\html\style.css.css">
+    <script src="https://kit.fontawesome.com/abd0d2f812.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="main">
+    <nav>
+        <div class="logo">
+            <img src="C:\Users\Dell\Desktop\html\multiple-users-silhouette.png"> first webpage 
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="#"> home</a></li>
+                <li> <a href="#"> phone </a></li>
+                <li> <a href="#"> accessories</a></li>
+                <li> <a href="#"> cart</a></li>
+            </ul>
+        </div>
+    </nav>
+     
+    <div class="information">
+        <div class="overlay"></div>
+      <img src="C:\Users\Dell\Desktop\html\=.jpg" class="mobile" >
+        <div id="circle">
+            <div class="feature one "> <img src="C:\Users\Dell\Desktop\html\camera-solid.svg">
+           
+               <div>
+                   <h1> camera</h1>
+                   <p> 1200MP,width Angle lens</p>
+               </div>
+            </div>
+            <div class="feature two "> <img src="C:\Users\Dell\Desktop\html\microchip-solid.svg">
+                <div>
+                    <h1> processor</h1>
+                    <p> sunnydragon</p>
+                </div>
+            </div>
+            <div class="feature three "> <img src="C:\Users\Dell\Desktop\html\tv-solid.svg">
+                <div>
+                    <h1> display</h1>
+                    <p>  6.5" Mini -drop fullscreen</p>
+                </div>
+            </div>
+            <div class="feature four"> <img src="C:\Users\Dell\Desktop\html\battery-three-quarters-solid.svg">
+                <div>
+                    <h1>  battey life </h1>
+                    <p> 5000mAh,750H</p>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+    <div class="controls">
+       <img src="C:\Users\Dell\Desktop\html\arrow-up-solid.svg" id="upBtn">
+        <h3>feature</h3>
+        <img src="C:\Users\Dell\Desktop\html\arrow-down-solid.svg" id="downBtn">
+    </div>
+</div>
+<script>
+    var circle=document.getElementById("circle");
+    var circle=document.getElementById("upBtn");
+    var circle=document.getElementById("downBtn");
+
+    var rotatevalue=circle.style.transform;
+    var rotatesum;
+
+    upBtn.onclick=function()
+    {
+        rotatesum=rotatevalue+"rotate(-90deg)";
+        circle.style.transform=rotatesum;
+        rotatevalue=rotatesum;
+    }
+    downBtn.onclick=function()
+    {
+        rotatesum=rotatevalue+"rotate(90deg)";
+        circle.style.transform=rotatesum;
+        rotatevalue=rotatesum;
+    }
+</script>
+</body>
+</html>
+
